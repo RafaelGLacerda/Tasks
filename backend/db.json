@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "email": "rafaellacerda2004@gmail.com",
+      "password": "rafael12",
+      "nickname": "Risadinhas",
+      "tasks": [
+        {
+          "name": "projeto1",
+          "date": "2026-01-08",
+          "time": "00:00",
+          "description": "aniversario do meu amor",
+          "done": false
+        }
+      ]
+    },
+    {
+      "email": "nosenselolclips@gmail.com",
+      "password": "rafael12",
+      "nickname": "Rafael",
+      "tasks": [
+        {
+          "name": "teste",
+          "date": "2025-03-12",
+          "time": "12:03",
+          "description": "almocar ne?",
+          "done": false
+        }
+      ]
+    }
+  ]
+}

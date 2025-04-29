@@ -1,0 +1,158 @@
+/* tasks.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(-45deg, #6c5ce7, #a29bfe, #74b9ff, #6c5ce7);
+    background-size: 400% 400%;
+    animation: pulseBackground 10s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  @keyframes pulseBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffffcc;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 1000px;
+    gap: 40px;
+  }
+  
+  /* Formulário de Tarefas */
+  .form-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-section h2 {
+    margin-bottom: 20px;
+    color: #6c5ce7;
+    text-align: center;
+  }
+  
+  #task-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+  }
+  
+  #task-form input,
+  #task-form textarea,
+  #task-form button,
+  #logout {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  #task-form textarea {
+    resize: vertical;
+  }
+  
+  button,
+  #logout {
+    background-color: #6c5ce7;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover,
+  #logout:hover {
+    background-color: #5a4bcf;
+  }
+  
+  #logout {
+    background-color: #d63031;
+    margin-top: 20px;
+  }
+  
+  #logout:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Painel de Tarefas */
+  .task-panel {
+    flex: 2;
+    background-color: #f9f9ff;
+    padding: 20px;
+    border-radius: 15px;
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  
+  #task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .task-item {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-item input[type="checkbox"] {
+    margin-top: 5px;
+  }
+  
+  .task-item-content {
+    flex: 1;
+  }
+  
+  .task-item-content strong {
+    font-size: 1.1em;
+  }
+  
+  .task-item-content p {
+    margin: 4px 0;
+  }
+  
+  .task-item button {
+    background: #e74c3c;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: fit-content;
+    align-self: flex-start;
+  }
+  
+  .task-item button:hover {
+    background: #c0392b;
+  }
+  

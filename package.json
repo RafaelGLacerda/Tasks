@@ -1,14 +1,20 @@
 {
   "name": "tarefas",
   "version": "1.0.0",
-  "main": "script.js",
+  "description": "Gerenciador de tarefas com login, frontend e backend integrados",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "tarefas",
+    "node",
+    "express",
+    "todo",
+    "javascript"
+  ],
+  "author": "Seu Nome",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0"

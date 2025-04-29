@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  const API = 'https://tarefas.up.railway.app';
+  const API = 'https://tasks.up.railway.app';
 
 // Detecta se está na tela de login
 const currentPage = window.location.pathname.split('/').pop();

@@ -1,7 +1,8 @@
 # 📝 Tarefas - Gerenciador de Tarefas com Login
 
 Este é um projeto de gerenciamento de tarefas com sistema de **login/cadastro**, desenvolvido com **HTML, CSS, JavaScript (Vanilla)** e **Node.js com Express**. Os dados são armazenados localmente em um arquivo `db.json`.
-
+---
+Acesse o site: [https://tasks.up.railway.app](https://tasks.up.railway.app)
 ---
 
 ## 🚀 Funcionalidades
@@ -20,6 +21,7 @@ Este é um projeto de gerenciamento de tarefas com sistema de **login/cadastro**
 - JavaScript (ES6)
 - Node.js + Express
 - LocalStorage e JSON local como banco de dados
+- Deploy no Railway
 
 ---
 

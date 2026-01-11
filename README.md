@@ -27,12 +27,4 @@ Acesse o site: https://tasks-hbdt.onrender.com/
 - LocalStorage e JSON local como banco de dados
 - Deploy no Railway
 
----
 
-### 📥 Clonar o repositório
-
-```bash
-git clone https://github.com/seu-usuario/tarefas-app.git
-cd tarefas-app
-npm install
-npm start

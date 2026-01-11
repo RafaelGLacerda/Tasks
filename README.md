@@ -1,7 +1,4 @@
-- ALERTA: ESTE SITE NÃO TEM SEGURANCA DE DADOS, ESTA SENDO USADO APENAS PARA TESTES, NÃO COLOQUE SUAS INFORMAÇÕES PESSOAIS POR FAVOR
-- WARNING: THIS SITE HAS NO DATA SECURITY AND IS ONLY BEING USED FOR TESTING, PLEASE DO NOT ENTER YOUR PERSONAL INFORMATION
 
----
 # 📝 Tarefas - Gerenciador de Tarefas com Login
 
 Este é um projeto de gerenciamento de tarefas com sistema de **login/cadastro**, desenvolvido com **HTML, CSS, JavaScript (Vanilla)** e **Node.js com Express**. Os dados são armazenados localmente em um arquivo `db.json`.
